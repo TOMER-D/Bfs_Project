@@ -1,7 +1,7 @@
 # ITS WORK !!
 import myBfs
 import myNode
-import
+#tomer
 
 node_list = myNode.Node.get_random_list(1000, 2, 1)
 bfs_alg = myBfs.Bfs(node_list, node_list[5])
