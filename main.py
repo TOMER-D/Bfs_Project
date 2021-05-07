@@ -1,8 +1,8 @@
-# ITS WORK !!
+
 import myBfs
 import myNode
 
-node_list = myNode.Node.get_random_list(1000, 2, 1)
+node_list = myNode.Node.get_random_list(1000, 3, 1)
 bfs_alg = myBfs.Bfs(node_list, node_list[5])
 size, string = bfs_alg.find(node_list[3])
 print("size : ", size, "   | chain : ", string)
